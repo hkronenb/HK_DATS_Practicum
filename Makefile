@@ -5,8 +5,8 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-BUCKET = [OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')
-PROFILE = default
+BUCKET = sg-c19-response
+PROFILE = safegraphws
 PROJECT_NAME = SafegraphCOVIDPhilly
 PYTHON_INTERPRETER = python3
 
