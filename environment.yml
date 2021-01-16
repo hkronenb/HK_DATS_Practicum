@@ -1,0 +1,51 @@
+name: dats-practicum
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - black=20.8b1
+  - pandas
+  - openpyxl
+  - matplotlib
+  - notebook
+  - ipython
+  - jupyterlab
+  - altair
+  - seaborn
+  - vega_datasets
+  - vega
+  - geopandas
+  - descartes
+  - cartopy
+  - mapclassify
+  - contextily
+  - bokeh
+  - hvplot
+  - holoviews
+  - geoviews
+  - xarray
+  - datashader
+  - param
+  - panel
+  - dask
+  - fastparquet
+  - python-snappy
+  - pyarrow
+  - scikit-learn
+  - dash
+  - missingno
+  - boto3
+  - awscli
+  - isort
+  - pip:
+      - phila-style
+      - jupyter-panel-proxy
+      - jupyter-server-proxy
+      - python-dotenv
+      - git+https://github.com/SafeGraphInc/safegraph_py
+      - jupyterlab_code_formatter
+      - loguru
